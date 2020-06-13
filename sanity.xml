@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="sanity" verbose="2" preserve-order="true">
+        <groups>
+            <run>
+                <include name="sanityWelcomeModule"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="T01_Priority"></class>
+            <class name="T07_grouping_regresssion_sanity_superregression_xmls"></class>
+        </classes>
+    </test>
+</suite>

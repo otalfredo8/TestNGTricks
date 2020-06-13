@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/alfre/IdeaProjects/TestNGTricks(failed)">
+    <parameter name="str1" value="strparameter"/>
+    <parameter name="str2" value="strparameter"/>
+    <classes>
+      <class name="T08_Parameters_paramsxml">
+        <methods>
+          <include name="test_parameters"/>
+        </methods>
+      </class> <!-- T08_Parameters_paramsxml -->
+    </classes>
+  </test> <!-- C:/Users/alfre/IdeaProjects/TestNGTricks(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
