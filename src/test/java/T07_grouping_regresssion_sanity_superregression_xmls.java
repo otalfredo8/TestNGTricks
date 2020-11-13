@@ -3,6 +3,7 @@ import org.testng.annotations.Test;
 //see notes in T04_xml.File for more details about grouping.
 public class T07_grouping_regresssion_sanity_superregression_xmls {
 
+//regression.xml
     @Test (groups = {"regression", "sanityWelcomeModule"})
     public void test1(){
         System.out.println("This is test 1");

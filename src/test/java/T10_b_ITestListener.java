@@ -2,12 +2,13 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(T10_TestListener.class)
-public class T11_withListenersAnnotation_listenerxml {
+//@Listeners(T10_a_ITestListener.class)
+public class T10_b_ITestListener {
 
     @Test
     public void testWithListeners(){
         System.out.println("My testWithListeners");
-        Assert.assertEquals(true, false);
+        Assert.fail();
+//        Assert.assertTrue(true);
     }
 }

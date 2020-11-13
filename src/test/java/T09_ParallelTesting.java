@@ -8,15 +8,16 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
+import static org.junit.Assert.assertNotNull;
 
-public class T09_ParallelTesting_parallelxml {
+public class T09_ParallelTesting {
 
     @Test
     public void test_parallelTest1_docs(){
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
         driver.get("https://www.google.com/search?q=google+docs&rlz=1C1CHBF_enUS897US897&oq=google+docs&aqs=chrome.0.69i59l2j69i64j69i60l3j69i65l2.1918j0j7&sourceid=chrome&ie=UTF-8");
-        System.out.println("test_parallelTest1" + "Headless Chrome" + "docs");
+        System.out.println("test_parallelTest1" + " Headless Chrome " + "docs");
     }
 
     @Test
@@ -31,6 +32,7 @@ public class T09_ParallelTesting_parallelxml {
     public void test_parallelTest3_books(){
         WebDriverManager.iedriver().setup();
         WebDriver driver = new InternetExplorerDriver();
+        assertNotNull(driver);
         driver.get("https://www.google.com/");
         System.out.println("test_parallelTest3" + "Internet Explorer" + "books");
     }
@@ -40,6 +42,6 @@ public class T09_ParallelTesting_parallelxml {
         WebDriverManager.firefoxdriver().setup();
         WebDriver driver = new FirefoxDriver();
         driver.get("https://www.google.com/search?rlz=1C1CHBF_enUS897US897&sxsrf=ALeKk03cl_FhyJHmwjZ3pvbH0k6vvwpMrg%3A1589465260451&ei=rFC9Xo6RG8XCytMPyryJ2Aw&q=google+news&oq=google+news&gs_lcp=CgZwc3ktYWIQAzIICAAQgwEQkQIyBQgAEIMBMgUIABCDATICCAAyAggAMgIIADICCAAyBQgAEIMBMgIIADICCAA6BAgAEEc6BQgAEJECOgcIABAUEIcCUIbIBlizywZghM4GaABwBHgAgAFtiAGIApIBAzMuMZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiOl-3Bw7PpAhVFoXIEHUpeAssQ4dUDCAw&uact=5");
-        System.out.println("test_parallelTest4" + "Firefox" + "news");
+        System.out.println("test_parallelTest4" + " Firefox " + "news");
     }
 }

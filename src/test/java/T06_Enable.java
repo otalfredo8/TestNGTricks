@@ -8,6 +8,6 @@ public class T06_Enable {
     }
     @Test (enabled = false)
     public void test_NoEnable(){
-        System.out.println("test by default is no enabled");
+        System.out.println("test is not enabled");
     }
 }

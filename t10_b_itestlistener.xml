@@ -2,11 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
     <listeners>
-        <listener class-name="T12_b_AnotationTransformer"></listener>
+        <listener class-name="T10_a_ITestListener"/>
     </listeners>
-    <test name="retryAnalyzer">
+    <test verbose="2" preserve-order="true" name="anyName">
         <classes>
-            <class name="T13_retryAnalyzer_AnnotationTransformer_Test"></class>
+            <class name="T10_b_ITestListener">
+            </class>
         </classes>
     </test>
 </suite>

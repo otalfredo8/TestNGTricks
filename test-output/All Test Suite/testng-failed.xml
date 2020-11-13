@@ -5,11 +5,11 @@
     <parameter name="str1" value="strparameter"/>
     <parameter name="str2" value="strparameter"/>
     <classes>
-      <class name="T08_Parameters_paramsxml">
+      <class name="T08_Parameters">
         <methods>
           <include name="test_parameters"/>
         </methods>
-      </class> <!-- T08_Parameters_paramsxml -->
+      </class> <!-- T08_Parameters -->
     </classes>
   </test> <!-- C:/Users/alfre/IdeaProjects/TestNGTricks(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

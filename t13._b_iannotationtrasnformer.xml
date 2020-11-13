@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="T13_a_IAnnotationTransformer"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="anyName">
+        <classes>
+            <class name="T13_b_IAnnotationTransformer"/>
+        </classes>
+    </test>
+</suite>

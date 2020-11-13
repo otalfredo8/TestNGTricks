@@ -1,7 +1,7 @@
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-public class T12_a_RetryAnalyzer implements IRetryAnalyzer {
+public class T12_a_IRetryAnalyzer implements IRetryAnalyzer {
 
     private int counter = 0;
     private int retryTimesLimit = 3;

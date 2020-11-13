@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/alfre/IdeaProjects/TestNGTricks/src/test/java/T08_Parameters.java">
+
+
+<!--Parameter at TestLevel-->
+<!--        <parameter name="anyName" value="anyValue"></parameter>-->
+        <classes>
+
+            <class name="T08_Parameters">
+                <methods>
+                    <!--            Parameter at the MethodLevel-->
+                    <parameter name="str1" value="anyParameter"/>
+                    <parameter name="str2" value="anyParameter"/>
+                    <include name="test_parameters"/>
+                </methods>
+            </class>
+<!--            Parameter at the ClassLevel-->
+<!--            <parameter name="str1" value="anyParameter2"></parameter>-->
+<!--            <parameter name="str2" value="anyParameter"></parameter>-->
+        </classes>
+    </test>
+</suite>
