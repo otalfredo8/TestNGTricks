@@ -10,4 +10,9 @@ public class T06_Enable {
     public void test_NoEnable(){
         System.out.println("test is not enabled");
     }
+
+    /*
+    @Ignore works better at class level
+    enabled = false works better at method level
+    * */
 }

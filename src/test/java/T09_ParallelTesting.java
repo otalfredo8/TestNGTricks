@@ -25,7 +25,7 @@ public class T09_ParallelTesting {
         WebDriverManager.firefoxdriver().setup();
         WebDriver driver = new FirefoxDriver(new FirefoxOptions().setHeadless(true));
         driver.get("https://www.google.com/search?rlz=1C1CHBF_enUS897US897&sxsrf=ALeKk03xWNCak3-b20B5PPonPl-fanoM1A%3A1589465205310&ei=dVC9XvrBEtWrytMPjp60kAI&q=google+maps&oq=google+maps&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIFCAAQkQIyAggAMgIIADICCAAyAggAMgcIABAUEIcCMgIIADICCAAyAggAOgQIABBHOgUIABCDAVC2rQFY7q8BYJ-1AWgAcAd4AIABYIgBnQKSAQE0mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwi60Menw7PpAhXVlXIEHQ4PDSIQ4dUDCAw&uact=5");
-        System.out.println("test_parallelTest2" + "Headless Firefox" + "maps");
+        System.out.println("test_parallelTest2" + " Headless Firefox " + "maps");
     }
 
     @Test
@@ -34,7 +34,7 @@ public class T09_ParallelTesting {
         WebDriver driver = new InternetExplorerDriver();
         assertNotNull(driver);
         driver.get("https://www.google.com/");
-        System.out.println("test_parallelTest3" + "Internet Explorer" + "books");
+        System.out.println("test_parallelTest3" + " Internet Explorer " + "books");
     }
 
     @Test

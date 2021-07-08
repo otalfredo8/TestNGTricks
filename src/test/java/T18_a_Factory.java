@@ -4,11 +4,20 @@ import org.testng.annotations.Test;
 
 public class T18_a_Factory {
 
+    //Factory methods are useful when your test classes have constructors with arguments
+    // or you want to create the different set of test classes and execute them at once.
     @Factory(dataProvider = "credentials")
     public Object[] createInstances(String user, String password) {
+
         Object [] tests = new Object[1];
         tests[0] = new T18_b_Factory(user, password);
-
+        return tests;
+    }
+    @Factory
+    public Object[] createInstances2(){
+        Object [] tests = new Object[2];
+        tests[0] = new T18_d_Factory();
+        tests[1] = new T18_c_Factory();
         return tests;
     }
 

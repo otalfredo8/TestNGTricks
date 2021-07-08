@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="methods" thread-count="4">
     <test verbose="2" preserve-order="true" name="parallel">
         <classes>
-            <class name="T09_ParallelTesting"></class>
+            <class name="T09_ParallelTesting"/>
         </classes>
     </test>
 </suite>

@@ -9,4 +9,9 @@ public class T16_a_IConfigurable implements IConfigurable {
         System.out.println("Execute this before any configuration steps get executed.");
         iConfigureCallBack.runConfigurationMethod(iTestResult);
     }
+    /*
+    iTestResult helps to describe the result of a test
+    getName()
+    getMethod()
+    * */
 }

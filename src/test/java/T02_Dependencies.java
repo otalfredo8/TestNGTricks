@@ -22,7 +22,6 @@ public class T02_Dependencies {
         System.out.println("TestNG dependsOnMethods test_three");
     }
 
-
     //TestNG Dependency extended (see t02Dependency.xml)
     @Test (groups = "dependency3")
     public void dependencyTest3(){
@@ -34,11 +33,9 @@ public class T02_Dependencies {
         System.out.println("This dependencyTest2() is part of 'dependency' group");
     }
 
-    //@Test(groups = {"dependency3"}, dependsOnGroups = {"dep.*"} )
+    //@Test(groups = {"otherGroup"}, dependsOnGroups = {"dep.*"} )
     @Test(groups = {"otherGroup"})
     public void dependencyTest1(){
         System.out.println("This method depends on any group matching the regular expression dep.*");
     }
-
-
 }

@@ -41,12 +41,6 @@ public class T04_xml_File {
     * Download testng.jar
     * Set System Variables TESTNG_HOME
     * cmd: workingDirectory>java -cp C:\...\lib\*;C:\...\bin org.testng.TestNG file.xml
-    *
 
-    *
-    *
-    *
-    *
     **/
-
 }

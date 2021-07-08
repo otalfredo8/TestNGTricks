@@ -8,8 +8,8 @@
             </run>
         </groups>
         <classes>
-            <class name="T01_Priority"></class>
-            <class name="T07_grouping_regresssion_sanity_superregression_xmls"></class>
+            <class name="T01_Priority"/>
+            <class name="T07_grouping_regresssion_sanity_superregression_xmls"/>
         </classes>
     </test>
 </suite>

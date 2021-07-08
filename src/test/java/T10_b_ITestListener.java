@@ -8,7 +8,7 @@ public class T10_b_ITestListener {
     @Test
     public void testWithListeners(){
         System.out.println("My testWithListeners");
-        Assert.fail();
-//        Assert.assertTrue(true);
+        //Assert.fail();
+        Assert.assertTrue(true);
     }
 }

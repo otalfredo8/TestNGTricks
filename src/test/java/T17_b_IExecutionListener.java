@@ -7,7 +7,7 @@ public class T17_b_IExecutionListener {
 
     @Test
     public void someMethod(){
-        System.out.print("Before this @Test Tomcat server will start and a JMS will be sent. ");
+        System.out.print("Before this @Test Tomcat server will start and a JMS will be sent. \n");
         System.out.println("After this @Test TomCat server will stop and a JMS will be sent.");
     }
 

@@ -17,6 +17,6 @@ public class T18_b_Factory {
     @Test
     public void loginTest2() {
 
-        System.out.println("Script to validate free-paper agreement" + username + " : " + password);
+        System.out.println("Script to validate free-paper agreement " + username + " : " + password);
     }
 }

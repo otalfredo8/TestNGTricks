@@ -12,8 +12,7 @@ public class T03_Annotations_Order {
         System.out.println("testBeforeTest");
     }
     @BeforeClass
-    public void testBeforeClass(){ System.out.println("testBeforeClass");
-    }
+    public void testBeforeClass(){ System.out.println("testBeforeClass"); }
     @BeforeMethod
     public void testBeforeMethod(){
         System.out.println("testBeforeMethod");
